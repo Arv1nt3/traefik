@@ -1,0 +1,17 @@
+replicas: 1
+
+rbac:
+  enabled: true
+
+accessLogs:
+  enabled: false
+
+dashboard:
+  enabled: true
+  domain:
+  auth:
+    basic:
+     # admin: password
+      admin: 'salut'
+
+externalTrafficPolicy: Local
